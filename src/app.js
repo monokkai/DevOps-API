@@ -1,5 +1,5 @@
 import express from "express";
-import logger from "./config/logger";
+import logger from "./config/logger.js";
 
 const app = express();
 
