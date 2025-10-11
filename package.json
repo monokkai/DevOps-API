@@ -24,7 +24,9 @@
   "homepage": "https://github.com/monokkai/DevOps-API#readme",
   "dependencies": {
     "@eslint/js": "^9.37.0",
+    "@neondatabase/serverless": "^1.0.2",
     "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.44.6",
     "eslint": "^9.37.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
