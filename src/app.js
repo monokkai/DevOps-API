@@ -1,10 +1,10 @@
 import express from "express";
+import logger from "./config/logger";
 
 const app = express();
 
 app.get("/", (req, res) => {
-  console.log(req.method);
-  console.log("-----------");
+  logger.info("Devops-API Log");
   res.send(200, "Hello, from /!");
 });
 
